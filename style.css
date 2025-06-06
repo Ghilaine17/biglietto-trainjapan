@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.my-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    background-image: url(img/train-mountains-landscape-minimalist-digital-art-uhdpaper.com-4K-60.jpg);
+}
+
+.my-text{
+    color: blueviolet;
+}
+
+.button{
+    background-color: blueviolet;
+    color: white;
+}
+.button:hover{
+    background-color: white;
+    color: blueviolet;
+}
+.my-station-train{
+    width: 150px;
+}
+.my-border{
+    border: 10px white;
+    border-style: ridge;
+    background-color: rgba(4, 5, 6, 0.383);
+}
