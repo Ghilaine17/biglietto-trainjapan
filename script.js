@@ -6,7 +6,7 @@ submitButton.addEventListener('click', function () {
     let age = document.getElementById('age').value
     let km = document.getElementById('km').value
     let firstName = document.getElementById('firstName').value
-    let firstSurname = document.getElementById('firstSurname').value
+    let lastName = document.getElementById('lastName').value
     const kmP = 0.21
     if (age === "") {
         result.innerHTML = "Seleziona un età"
@@ -84,7 +84,7 @@ submitButton.addEventListener('click', function () {
                     <div class="col">
                         <div class="d-flex">
                             <h5 class="me-2">Cognome:</h5>
-                            <div class="fs-6">${firstSurname}</div>
+                            <div class="fs-6">${lastName}</div>
                         </div>
                         <div class="d-flex">
                             <h5 class="me-2">Posto:</h5>
